@@ -1,0 +1,43 @@
+/*
+    Tudo que é id no HTML vira # no CSS(só pode um elemento)
+    Tudo que é class no HTML vira . no CSS(pode em vários elementos)
+*/
+
+body {
+    background-image: linear-gradient(#f5ac91, #c8aaaa);
+    text-align: center;
+    background-attachment: fixed;
+}
+
+#principal {
+    background-color: rgba(199, 95, 58, 0.661);
+    color: rgb(255, 255, 255);
+}
+h1 {
+    color: rgb(157, 255, 222);
+    background-color: rgba(172, 121, 102, 0.809);
+}
+
+.basico {
+    color: rgb(3, 253, 253);
+    background-color: rgba(172, 121, 102, 0.551);
+}
+
+.intermediario {
+    color: rgb(83, 231, 70);
+    background-color: rgba(172, 121, 102, 0.551);
+}
+
+.avancado {
+    color: rgb(21, 119, 247);
+    background-color: rgba(172, 121, 102, 0.551);
+}
+
+h2 {
+    background-color: rgba(172, 121, 102, 0.551);
+    color: rgb(145, 254, 254);
+}
+
+p {
+    text-align: justify;
+}

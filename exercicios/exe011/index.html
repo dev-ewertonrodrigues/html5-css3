@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <title>Imagens dinâmicas, aúdios e vídeos</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Vamos tentar abrir as imagens para que ela se adapte de acordo com o tamanho da tela do usuário</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="images/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="images/foto-m.png" type="image/png">
+        <img src="images/foto-g.png" alt="Imagem flexível">
+    </picture>
+    <h2>Agora vamos ver outra imagem na <a href="pag002.html" target="_blank" rel="next">página 2</a></h2> <hr>
+
+    <h1>Reproduzindo áudios</h1>
+    <p>Vamos aprender a reproduzir audios em <abbr title="HyperText Markup Language - é a linguagem de marcação padrão para criar páginas web">HTML5</abbr></p>
+    <audio preload="metadata" controls>
+        <source src="midia/Toccata in D minor (by Bach) - Bach.mp3"  type="audio/mp3">
+    </audio>
+    <p>Caso queira baixar o arquivo de audio em MP3, <a href="midia/Toccata in D minor (by Bach) - Bach.mp3" download="Toccata_in_D_minor.mp3" type="audio/mp3">clique aqui</a></p> <hr>
+
+</body>
+</html>

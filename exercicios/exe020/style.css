@@ -1,0 +1,102 @@
+body {
+    background-image: linear-gradient(180deg, #A3AB78, #818274 );
+    background-attachment: fixed;
+}
+
+.div01 {
+    display: inline-block;
+    border: 1px solid black;
+    background-color: #BDE038;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    margin-right: 10px;
+}
+.div01 > div { /*aqui estou falando que é uma div que está dentro da div*/
+    display: none; /*aqui para ocultar o div*/
+}
+
+.div01:hover > div { /*aqui pedindo para ele mostrar quando passar o mouse na div, para aparecer a div que está dentro da div com as características*/
+    display: flex;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+
+.div01:hover {
+    background-color: #818274;
+}
+
+.div02 {
+    display: inline-block;
+    border: 1px solid black;
+    background-color: #BDE038;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    margin-right: 10px;
+}
+.div02 > div { /*aqui estou falando que é uma div que está dentro da div*/
+    display: none; /*aqui para ocultar o div*/
+}
+
+.div02:hover > div { /*aqui pedindo para ele mostrar quando passar o mouse na div, para aparecer a div que está dentro da div com as características*/
+    display: flex;
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    margin: auto ;
+}
+
+.div02:hover {
+    background-color: #818274;
+}
+
+.div03 {
+    display: inline-block;
+    border: 1px solid black;
+    background-color: #BDE038;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    margin-right: 10px;
+}
+.div03 > div { /*aqui estou falando que é uma div que está dentro da div*/
+    display: none; /*aqui para ocultar o div*/
+}
+
+.div03:hover > div { /*aqui pedindo para ele mostrar quando passar o mouse na div, para aparecer a div que está dentro da div com as características*/
+    display: inline-block;
+    background-color: green;
+    height: 100px;
+    width: 100px;
+}
+
+.div03:hover {
+    background-color: #818274;
+}
+
+a {
+    color: rgba(26, 33, 24, 0.881);
+    text-decoration: none;
+    font-weight: bolder;
+    background-color: #7d8b49;
+}
+
+a:visited {
+    color: rgb(0, 68, 255);
+}
+
+a:hover {
+    color: #BDE038;
+    text-decoration: underline;
+}
+
+a::before {
+    content: '→';
+}
+
+a::after {
+    content: '←';
+}

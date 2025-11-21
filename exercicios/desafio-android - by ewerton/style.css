@@ -1,0 +1,132 @@
+body {
+    background-color: #84E1AD ;
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    background-image: linear-gradient(#3BD580, #2A9659, #1a5c38fb);
+    background-attachment: scroll;
+}
+
+header > h1, p {
+    color: #FCFDFD;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav > a {
+   color: #FCFDFD;
+   text-decoration: none;
+   margin: 10px;
+   padding: 10px;
+   font-weight: bolder;
+}
+
+main {
+    width: 75%;
+    margin: auto;
+    border: 1px solid rgba(0, 0, 0, 0.214);
+    box-shadow: 1px 1px 10px 5px #1b603a56 ;
+    background-color: #FFFFFF ;
+}
+
+main h1, h2 {
+    font-family: 'idroid';
+    color: #256441;
+    margin: 20px;
+}
+
+main p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main article {
+    padding: 0;
+    margin: 0;
+}
+
+main h2 {
+    padding: 5px;
+    background-image: linear-gradient(90deg, #C6EBD6, #E0F5E9, #FFFFFF);
+    background-attachment: fixed;
+    border: 1px solid transparent;
+}
+main p {
+    color: black;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+main strong {
+    color: #42795A;
+}
+
+#dandroid {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+#irinia {
+    display: block;
+    margin: auto;
+    width: 90%;
+}
+#bugdroid {
+    display: block;
+    margin: auto;
+}
+
+.container {
+    background-color: #1A5C38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.containerh3 {
+    background-color: #C5EBD6;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 5px #87a0927d;
+}
+
+.containerh3 h3 {
+    background-color: #2FA866;
+    color: #FFFFFF;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.containerlist ul {
+    column-count: 2;
+    column-gap: 10px;
+    list-style-type:none;
+}
+
+.containerlist li {
+    margin-bottom: 3px;
+}
+
+footer {
+    background-color: #1A5C38;
+}
+
+footer p {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+
+
