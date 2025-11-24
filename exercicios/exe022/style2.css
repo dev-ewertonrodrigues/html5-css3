@@ -1,0 +1,14 @@
+/*
+background-repeat atributos:
+
+repeat = repete infinitamente a imagem
+no-repeat = coloca a imagem somente uma vez
+repeat-x = repete a imagem na horizontal
+repeat-y = repete a imagem na vertical
+*/
+
+body {
+    background-image: url('https://gustavoguanabara.github.io/html-css/imagens/mascote.png');
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+}
