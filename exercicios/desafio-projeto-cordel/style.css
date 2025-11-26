@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --font01: 'Pangolin', cursive;
+    --font02: "Sriracha", cursive;
+    --font03: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -6,6 +16,7 @@
 html, body {
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--font03);
 }
 
 header {
@@ -15,8 +26,10 @@ header {
 }
 
 header h1 {
-    padding: 50px;
+    padding: 50px 50px 5px 50px;
     font-variant: small-caps; /*Todas as letras em caixa alta porém as primeiras maiores*/
+    font-family: var(--font01);
+    font-size: 7vw;
 }
 
 header p{
@@ -38,6 +51,9 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--font02);
+    font-size: 3.5vw;
+    
 }
 
 section.normal {
@@ -52,7 +68,8 @@ section.imagem {
 
 section.imagem p{
     background-color: rgba(0, 0, 0, 0.192);
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
 }
 
 
