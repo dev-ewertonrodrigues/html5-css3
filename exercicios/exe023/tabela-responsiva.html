@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Responsiva</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        caption {
+            background-color: lightgreen;
+            border: 1px solid transparent;
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: grey;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: lightgray;
+        }
+
+        div#container {
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabela Responsiva</h1>
+    <div id="container">
+        <table>
+            <caption>Tabela responsiva através do &lt;overflow&gt; </caption>
+            <tr>
+                <th scope="col" rowspan="2">Produtos</th>
+                <th scope="col">Jan</th>
+                <th scope="col">Fev</th>
+                <th scope="col">Mar</th>
+                <th scope="col">Abr</th>
+                <th scope="col">Mai</th>
+                <th scope="col">Jun</th>
+                <th scope="col">Jul</th>
+                <th scope="col">Ago</th>
+                <th scope="col">Set</th>
+                <th scope="col">Out</th>
+                <th scope="col">Nov</th>
+                <th scope="col">Dez</th>
+            </tr>
+            <tr>
+                <th scope="colgroup" colspan="13">Quantidade</th>
+            </tr>
+            <tr>
+                <td>Televisão 40"</td>
+                <td>10</td>
+                <td>8</td>
+                <td>5</td>
+                <td>15</td>
+                <td>9</td>
+                <td>20</td>
+                <td>13</td>
+                <td>21</td>
+                <td>9</td>
+                <td>4</td>
+                <td>6</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Geladeira</td>
+                <td>10</td>
+                <td>8</td>
+                <td>5</td>
+                <td>15</td>
+                <td>9</td>
+                <td>20</td>
+                <td>13</td>
+                <td>21</td>
+                <td>9</td>
+                <td>4</td>
+                <td>6</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Máquina de Lavar</td>
+                <td>10</td>
+                <td>8</td>
+                <td>5</td>
+                <td>15</td>
+                <td>9</td>
+                <td>20</td>
+                <td>13</td>
+                <td>21</td>
+                <td>9</td>
+                <td>4</td>
+                <td>6</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Ar Condicionado</td>
+                <td>10</td>
+                <td>8</td>
+                <td>5</td>
+                <td>15</td>
+                <td>9</td>
+                <td>20</td>
+                <td>13</td>
+                <td>21</td>
+                <td>9</td>
+                <td>4</td>
+                <td>6</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Microondas</td>
+                <td>10</td>
+                <td>8</td>
+                <td>5</td>
+                <td>15</td>
+                <td>9</td>
+                <td>20</td>
+                <td>13</td>
+                <td>21</td>
+                <td>9</td>
+                <td>4</td>
+                <td>6</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Cooktop</td>
+                <td>10</td>
+                <td>8</td>
+                <td>5</td>
+                <td>15</td>
+                <td>9</td>
+                <td>20</td>
+                <td>13</td>
+                <td>21</td>
+                <td>9</td>
+                <td>4</td>
+                <td>6</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Air Fryer</td>
+                <td>10</td>
+                <td>8</td>
+                <td>5</td>
+                <td>15</td>
+                <td>9</td>
+                <td>20</td>
+                <td>13</td>
+                <td>21</td>
+                <td>9</td>
+                <td>4</td>
+                <td>6</td>
+                <td>30</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
